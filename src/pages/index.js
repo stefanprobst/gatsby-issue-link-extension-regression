@@ -11,39 +11,25 @@ export default HomePage
 
 export const query = graphql`
   query HomePageQuery {
-    allPost {
+    allMarkdownRemark {
       nodes {
-        id
-        title
-        body
-        authors {
-          id
-          name
-          email
-        }
-        tags {
-          id
-          label
-          description
+        frontmatter {
+          title
+          authors {
+            name
+            email
+          }
         }
       }
     }
     allAuthor {
       nodes {
-        id
         name
         email
-      }
-    }
-    allTag {
-      nodes {
-        id
-        label
-        description
         posts {
-          id
-          title
-          body
+          frontmatter {
+            title
+          }
         }
       }
     }

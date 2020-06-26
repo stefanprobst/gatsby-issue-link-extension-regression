@@ -16,5 +16,6 @@ module.exports = {
           node.name.charAt(0).toUpperCase() + camelCase(node.name.slice(1)),
       },
     },
+    'gatsby-transformer-remark',
   ],
 }
