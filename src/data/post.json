@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Post One",
+    "body": "Post One",
+    "authors": ["one@authors.org", "three@authors.org"],
+    "tags": ["tag-two", "tag-three"]
+  },
+  {
+    "title": "Post Two",
+    "body": "Post Two",
+    "authors": ["two@authors.org", "three@authors.org"],
+    "tags": ["tag-one"]
+  },
+  {
+    "title": "Post Three",
+    "body": "Post Three",
+    "authors": [],
+    "tags": ["tag-two", "tag-four"]
+  },
+  {
+    "title": "Post Four",
+    "body": "Post Four",
+    "authors": ["three@authors.org"],
+    "tags": []
+  }
+]

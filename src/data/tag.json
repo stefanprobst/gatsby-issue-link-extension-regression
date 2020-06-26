@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tag-one",
+    "label": "Tag One",
+    "description": "Tag One"
+  },
+  {
+    "id": "tag-two",
+    "label": "Tag Two",
+    "description": "Tag Two"
+  },
+  {
+    "id": "tag-three",
+    "label": "Tag Three",
+    "description": "Tag Three"
+  },
+  {
+    "id": "tag-four",
+    "label": "Tag Four",
+    "description": "Tag Four"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "gatsby": "2.22.22",
+    "gatsby-source-filesystem": "^2.3.13",
+    "gatsby-transformer-json": "^2.4.7",
+    "lodash.camelcase": "^4.3.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier . --write --ignore-path .gitignore",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "engines": {
+    "yarn": "^1"
+  }
+}

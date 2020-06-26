@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Author One",
+    "email": "one@authors.org"
+  },
+  {
+    "name": "Author Two",
+    "email": "two@authors.org"
+  },
+  {
+    "name": "Author Three",
+    "email": "three@authors.org"
+  },
+  {
+    "name": "Author Four",
+    "email": "four@authors.org"
+  }
+]
